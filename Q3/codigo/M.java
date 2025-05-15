@@ -5,7 +5,6 @@ public class M{
         PlacaMae p=new PlacaMae("Apple","8766","7 slots","32 terabytes");
         c.addPlaca(p);
         c.exibeInfo();
-        c.atualizaPlaca(p,"8");
-        c.removePlaca("Apple","8766","7 slots","32 terabytes");
+        c.atualizaPlaca("8");
     }
 }
